@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&family=Poppins:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+.body-contactanos {
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding: 0 1.5em;
+    box-sizing: border-box;
+}
+.content-contactanos {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+.logo-contactanos {
+    text-align: center;
+    font-size: 3em;
+}
+#amarillo {
+    color: yellow;
+}
+#azul {
+    color: blue;
+}
+#rojo {
+    color: red;
+}
+.contact-wrapper-contactanos {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255,0.1);
+}
+.contact-wrapper-contactanos > * {
+    padding: 1em;
+}
+.contact-form-contactanos {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+}
+.contact-form-contactanos form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact-form-contactanos form .block-contactanos {
+    grid-column: 1 / 3;
+}
+.contact-form-contactanos form p {
+    margin: 0;
+    padding: 1em;
+}
+.contact-form-contactanos form button,
+.contact-form-contactanos form input,
+.contact-form-contactanos form textarea {
+    width: 100%;
+    padding: 0.7em;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    resize: none;
+}
+#nombre,
+#correo,
+#telefono,
+#asunto {
+    border-bottom: 1px solid yellow;
+}
+#mensaje {
+    border-bottom: 1px solid rgba(0, 0, 255, 0.741);
+}
+.contact-form-contactanos form button {
+    background-color: rgb(135, 13, 13);
+    color: black;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+.contact-form-contactanos form button:hover,
+.contact-form-contactanos form button:focus {
+    background-color: rgb(198, 0, 0);
+    color: rgb(184, 184, 184);
+    transition: background-color 1s ease-out;
+    transition: color 0.2s ease-out;
+    outline: 0;
+}
+.contact-info-contactanos {
+    background-color: black;
+}
+.contact-info-contactanos h4,
+.contact-info-contactanos ul,
+.contact-info-contactanos p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+.contact-info-contactanos ul {
+    list-style: none;
+    padding: 0;
+}
+.contact-info-contactanos ul li {
+    padding: 0.3em;
+}
+.a-contact {
+    text-decoration: none;
+    color: white;
+}
+.a-contact:hover {
+    color: rgba(255, 255, 255, 0.385);
+}
+.contact-info-contactanos ul a {
+    text-decoration: none;
+    color: white;
+}
+.contact-info-contactanos ul a:hover {
+    color: rgba(255, 255, 255, 0.385);
+}
+@media (min-width: 700px) {
+    .body-contactanos {
+        padding: 0 4rem;
+    }
+    .contact-wrapper-contactanos {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper-contactanos > * {
+        padding: 1em;
+    }
+    .contact-info-contactanos h4,
+    .contact-info-contactanos ul,
+    .contact-info-contactanos p {
+        padding: 1em;
+        text-align: left;
+    }
+}
