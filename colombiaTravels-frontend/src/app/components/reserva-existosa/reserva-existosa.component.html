@@ -1,21 +1,21 @@
 <div class="body-registro">
   <form action="" class="formulario-registro">
-    <h1 class="h1-registro">¡¡Reserva tus viajes ahora!!</h1>
+    <h1 class="h1-registro">¡Felicidades, tu reserva ha sido realizada!</h1>
     <div class="contenedor-registro">
         <div class="input-contenedor-registro">
           <i class="fa-solid fa-calendar-days icon-registro"></i>
             <label for="salida">Fecha de Salida</label>
-            <input class="input-contenedor-reservas" type="date" id="salida" autocomplete="off" required>
+            <input class="input-contenedor-reservas" type="date" id="salida" autocomplete="off" required disabled>
         </div>
         <div class="input-contenedor-registro">
           <i class="fa-solid fa-calendar-days icon-registro"></i>
           <label for="regreso">Fecha de Regreso</label>
-          <input class="input-contenedor-reservas" type="date" id="regreso" autocomplete="off" required>
+          <input class="input-contenedor-reservas" type="date" id="regreso" autocomplete="off" required disabled>
         </div>
         <div class="input-contenedor-registro">
           <i class="fa-solid fa-city icon-registro"></i>
           <label for="partida">Ciudad de Salida</label>
-          <select name="" id="">
+          <select name="" id="" disabled>
             <option value="bogota">Bogota</option>
             <option value="cali">Cali</option>
             <option value="medellin">Medellin</option>
@@ -34,7 +34,7 @@
         <div class="input-contenedor-registro">
           <i class="fa-solid fa-city icon-registro"></i>
           <label for="partida">Ciudad de Destino</label>
-          <select name="" id="">
+          <select name="" id="" disabled>
             <option value="bogota">Bogota</option>
             <option value="cali">Cali</option>
             <option value="medellin">Medellin</option>
@@ -52,54 +52,54 @@
         </div>
         <div class="input-contenedor-registro">
             <label><i class="fa fa-male icon-registro"></i> Adultos</label>
-            <input class="input-contenedor-reservas" type="number" value="1" name="Adults" min="1" max="8">
+            <input class="input-contenedor-reservas" type="number" value="1" name="Adults" min="1" max="8" disabled>
         </div>
         <div class="input-contenedor-registro">
           <label><i class="fa fa-male icon-registro"></i> Niños</label>
-          <input class="input-contenedor-reservas" type="number" value="1" name="niños" min="0" max="4">
+          <input class="input-contenedor-reservas" type="number" value="1" name="niños" min="0" max="4" disabled>
       </div>
       <div class="input-contenedor-registro">
         <i class="fa-solid fa-signature icon-registro"></i>
         <label for="regreso">Nombre</label>
-        <input class="input-contenedor-reservas" type="text" required>
+        <input class="input-contenedor-reservas" type="text" required disabled>
       </div>
       <div class="input-contenedor-registro">
         <i class="fa-solid fa-id-card icon-registro"></i>
         <label for="regreso">Cédula de Ciudadania</label>
-        <input class="input-contenedor-reservas" type="number" required>
+        <input class="input-contenedor-reservas" type="number" required disabled>
       </div>
       <div class="input-contenedor-registro">
         <i class="fa-solid fa-envelope icon-registro"></i>
         <label for="regreso">Correo</label>
-        <input class="input-contenedor-reservas" type="email" required>
+        <input class="input-contenedor-reservas" type="email" required disabled>
       </div>
       <div class="input-contenedor-registro">
         <i class="fa-solid fa-phone icon-registro"></i>
         <label for="regreso">Teléfono</label>
-        <input class="input-contenedor-reservas" type="number" required>
+        <input class="input-contenedor-reservas" type="number" required disabled>
       </div>
       <div class="input-contenedor-registro">
         <i class="fa-solid fa-credit-card icon-registro"></i>
         <label for="regreso">Número de Tarjeta de Pago</label>
-        <input class="input-contenedor-reservas" type="number" required>
+        <input class="input-contenedor-reservas" type="number" required disabled>
       </div>
       <div class="input-contenedor-registro">
         <i class="fa-solid fa-credit-card icon-registro"></i>
         <label for="regreso">CCV</label>
-        <input class="input-contenedor-reservas" type="number" required>
+        <input class="input-contenedor-reservas" type="text" required disabled>
       </div>
       <div class="input-contenedor-registro">
         <i class="fa-solid fa-dollar-sign icon-registro"></i>
         <label for="regreso">Cuotas</label>
-        <input class="input-contenedor-reservas" type="number" required>
+        <input class="input-contenedor-reservas" type="number" required disabled>
       </div>
       <div class="input-contenedor-registro">
         <i class="fa-solid fa-cart-shopping icon-registro"></i>
         <label for="regreso">Total a Pagar</label>
-        <input class="input-contenedor-reservas" type="number" required>
+        <input class="input-contenedor-reservas" type="number" required disabled>
       </div>
       <p class="block">
-        <a class="a-reservas" routerLink="/reserva-existosa"><button class="button-registro" type="submit">Reservar y Realizar Pago</button></a>
+        <a class="a-reservas" routerLink="/"><button class="button-registro" type="submit">Volver al Inicio</button></a>
     </p>
     </div>
   </form>

@@ -7,6 +7,8 @@ import { LoginComponent } from "./components/login/login.component";
 import { RegistroComponent } from "./components/registro/registro.component";
 import { ReservasComponent } from "./components/reservas/reservas.component";
 import { LugaresComponent } from "./components/lugares/lugares.component";
+import { ReservaExistosaComponent } from "./components/reserva-existosa/reserva-existosa.component";
+import { SuperloginComponent } from "./components/superlogin/superlogin.component";
 
 const routes: Routes = [
   { path: "", component: InicioComponent },
@@ -16,6 +18,8 @@ const routes: Routes = [
   { path: "registro", component: RegistroComponent },
   { path: "reservas", component: ReservasComponent },
   { path: "lugares", component: LugaresComponent },
+  { path: "reserva-existosa", component: ReservaExistosaComponent },
+  { path: "superlogin", component: SuperloginComponent }
 ];
 
 @NgModule({
