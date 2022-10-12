@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&family=Poppins:wght@300&display=swap');
+.body-dashboard {
+  margin-top:  0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #dfe9f5;
+}
+.dashboard {
+  position: absolute;
+  top: 71px;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  background: white;
+  width: 90px;
+  overflow: hidden;
+  transition: width 0.2s linear;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.logo-dashboard {
+  text-align: center;
+  display: flex;
+  transition: all 0.5s ease;
+}
+.logo-dashboard img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.logo-dashboard span {
+  font-weight: bold;
+  padding: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.a-dashboard {
+  position: relative;
+  color: rgb(85,83,83);
+  font-size: 14px;
+  display: table;
+  width: 300px;
+  padding: 10px;
+  padding-top: 55px;
+}
+.icon {
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item {
+  position: relative;
+  top: 15px;
+  margin-left: 10px;
+}
+.dashboard:hover {
+  width: 280px;
+  transition: all 0.5s ease;
+}
+.buscador {
+  margin-left: 350px;
+  margin-top: 50px;
+}
+.h1-buscador {
+  font-size: 50px;
+}
+.buscador input {
+  width: 80%;
+  margin-bottom: 20px;
+}
+.buscador input[type="text"] {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+}
+.boton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  background-color: whitesmoke;
+  color: black;
+  font-size: 20px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: .3s ease all;
+  border-radius: 10px;
+}
+.boton:hover {
+  background-color: rgb(255, 255, 255);
+}
+.tabla {
+  margin-left: 350px;
+  margin-top: 50px;
+}
+.h1-lista {
+  font-size: 50px;
+}
+.titulo-tabla {
+  font-size: 30px;
+}
+#usuario-tabla {
+  padding-right: 55px;
+}
+#destino-tabla {
+  padding-right: 55px;
+}

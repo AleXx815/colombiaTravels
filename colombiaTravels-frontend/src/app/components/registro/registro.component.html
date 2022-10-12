@@ -1,45 +1,31 @@
-<div class="body-registro">
-  <form action="" class="formulario-registro">
-    <h1 class="h1-registro">Regístrate</h1>
-    <div class="contenedor-registro">
-        <div class="input-contenedor-registro">
-            <i class="fas fa-user icon-registro"></i>
-            <input type="text" placeholder="Nombre Completo">
-        </div>
-        <div class="input-contenedor-registro">
-          <i class="fa-regular fa-calendar icon-registro"></i>
-          <input type="date" placeholder="Fecha de Nacimiento">
-        </div>
-        <div class="input-contenedor-registro">
-          <i class="fa-solid fa-venus-mars icon-registro"></i>
-          <select name="" id="">
-            <option value="hombre">Hombre</option>
-            <option value="mujer">Mujer</option>
-            <option value="otro">Otro</option>
-          </select>
-        </div>
-        <div class="input-contenedor-registro">
-            <i class="fas fa-envelope icon-registro"></i>
-            <input type="email" placeholder="Correo Electrónico">
-        </div>
-        <div class="input-contenedor-registro">
-          <i class="fa-solid fa-user-secret icon-registro"></i>
-          <input type="text" placeholder="Nombre de Usuario">
-      </div>
-        <div class="input-contenedor-registro">
-            <i class="fas fa-key icon-registro"></i>
-            <input type="password" placeholder="Contraseña">
-        </div>
-        <input type="submit" value="Regístrate" class="button-registro">
-        <p class="p-registro">Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad. Pulsa <a href="https://policies.google.com/terms?hl=es" class="link-registro" target="_blank"> Aquí</a> para verlos</p>
-        <p class="p-registro">¿Ya tienes una cuenta?<a routerLink="/login" class="link-registro">Iniciar Sesión</a></p>
-
-        <br><br>
-        <h3 class="h3-registro">¡Consigue las mejores ofertas primero!</h3>
-        <p class="p-registro">¿Quieres ser cliente premium y recibir nuestros mejores tratos y enterarte de las mejores ofertas antes que nadie? Ingresa tu número telefonico y te enviaremos información</p>
-        <label for="">Telefono</label>
-        <input type="text" placeholder="Número Telefónico">
-        <button class="button-registro" type="submit">Pedir Info</button>
-    </div>
-  </form>
+<div class="body-login">
+  <div class="login-box">
+    <img class="avatar-login" src="https://static.vecteezy.com/system/resources/previews/004/854/032/non_2x/colombia-map-on-black-background-vector.jpg">
+    <h1>Regístrate</h1>
+    <form action="">
+      <label for="name">Nombre Completo (*)</label>
+      <input type="text" placeholder="Ingresar su Nombre" required>
+      <label for="date">Fecha de Nacimiento (*)</label>
+      <input type="date" required>
+      <label for="genero">Género</label>
+      <select name="" id="">
+        <option value="hombre">Hombre</option>
+        <option value="mujer">Mujer</option>
+        <option value="otro">Otro</option>
+      </select>
+      <label for="email">Correo Electrónico (*)</label>
+      <input type="email" placeholder="Ingresar Correo Electrónico" required>
+      <label for="username">Nombre de Usuario (*)</label>
+      <input type="text" placeholder="Ingresar su Nombre de Usuario" required>
+      <label for="contrasena">Contraseña (*)</label>
+      <input type="password" placeholder="Ingresar su Contraseña" required>
+      <br><br>
+      <input type="submit" value="registrarse">
+      <br>
+      <p>Al registrarse estás aceptado nuestras condiciones de uso y política de privacidad.
+        pulsa <a href="https://www.mintic.gov.co/portal/inicio/Secciones-auxiliares/Politicas/2627:Politicas-de-Privacidad-y-Condiciones-de-Uso" target="_blank"> Aquí</a> para verlos.</p>
+        <br>
+        <p>¿Ya tienes cuenta? <a routerLink="/login"> Iniciar Sesión</a></p>
+    </form>
+  </div>
 </div>

@@ -21,6 +21,8 @@ import { BucaramangaComponent } from './components/ciudades/components/bucaraman
 import { BarranquillaComponent } from './components/ciudades/components/barranquilla/barranquilla.component';
 import { ReservaExistosaComponent } from './components/reserva-existosa/reserva-existosa.component';
 import { SuperloginComponent } from './components/superlogin/superlogin.component';
+import { CiudadComponent } from './components/ciudad/ciudad.component';
+
 
 @NgModule({
   declarations: [
@@ -42,7 +44,8 @@ import { SuperloginComponent } from './components/superlogin/superlogin.componen
     BucaramangaComponent,
     BarranquillaComponent,
     ReservaExistosaComponent,
-    SuperloginComponent
+    SuperloginComponent,
+    CiudadComponent,
   ],
   imports: [
     BrowserModule,

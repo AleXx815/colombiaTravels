@@ -9,6 +9,7 @@ import { ReservasComponent } from "./components/reservas/reservas.component";
 import { LugaresComponent } from "./components/lugares/lugares.component";
 import { ReservaExistosaComponent } from "./components/reserva-existosa/reserva-existosa.component";
 import { SuperloginComponent } from "./components/superlogin/superlogin.component";
+import { CiudadComponent } from "./components/ciudad/ciudad.component";
 
 const routes: Routes = [
   { path: "", component: InicioComponent },
@@ -19,7 +20,8 @@ const routes: Routes = [
   { path: "reservas", component: ReservasComponent },
   { path: "lugares", component: LugaresComponent },
   { path: "reserva-existosa", component: ReservaExistosaComponent },
-  { path: "superlogin", component: SuperloginComponent }
+  { path: "superlogin", component: SuperloginComponent },
+  { path: "ciudad", component: CiudadComponent }
 ];
 
 @NgModule({

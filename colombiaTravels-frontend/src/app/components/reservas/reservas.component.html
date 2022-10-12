@@ -1,106 +1,62 @@
-<div class="body-registro">
-  <form action="" class="formulario-registro">
-    <h1 class="h1-registro">¡¡Reserva tus viajes ahora!!</h1>
-    <div class="contenedor-registro">
-        <div class="input-contenedor-registro">
-          <i class="fa-solid fa-calendar-days icon-registro"></i>
-            <label for="salida">Fecha de Salida</label>
-            <input class="input-contenedor-reservas" type="date" id="salida" autocomplete="off" required>
-        </div>
-        <div class="input-contenedor-registro">
-          <i class="fa-solid fa-calendar-days icon-registro"></i>
-          <label for="regreso">Fecha de Regreso</label>
-          <input class="input-contenedor-reservas" type="date" id="regreso" autocomplete="off" required>
-        </div>
-        <div class="input-contenedor-registro">
-          <i class="fa-solid fa-city icon-registro"></i>
-          <label for="partida">Ciudad de Salida</label>
-          <select name="" id="">
-            <option value="bogota">Bogota</option>
-            <option value="cali">Cali</option>
-            <option value="medellin">Medellin</option>
-            <option value="cartagena">Cartagena</option>
-            <option value="san_andres">San Andres</option>
-            <option value="santa_marta">Santa Marta</option>
-            <option value="cinque_terre">Cinque Terre</option>
-            <option value="new_york">New York</option>
-            <option value="san_francisco">San Francisco</option>
-            <option value="pisa">Pisa</option>
-            <option value="paris">Paris</option>
-            <option value="noruega">Costa oeste, Noruega</option>
-            <option value="australia">Montañas, Austria</option>
-          </select>
-        </div>
-        <div class="input-contenedor-registro">
-          <i class="fa-solid fa-city icon-registro"></i>
-          <label for="partida">Ciudad de Destino</label>
-          <select name="" id="">
-            <option value="bogota">Bogota</option>
-            <option value="cali">Cali</option>
-            <option value="medellin">Medellin</option>
-            <option value="cartagena">Cartagena</option>
-            <option value="san_andres">San Andres</option>
-            <option value="santa_marta">Santa Marta</option>
-            <option value="cinque_terre">Cinque Terre</option>
-            <option value="new_york">New York</option>
-            <option value="san_francisco">San Francisco</option>
-            <option value="pisa">Pisa</option>
-            <option value="paris">Paris</option>
-            <option value="noruega">Costa oeste, Noruega</option>
-            <option value="australia">Montañas, Austria</option>
-          </select>
-        </div>
-        <div class="input-contenedor-registro">
-            <label><i class="fa fa-male icon-registro"></i> Adultos</label>
-            <input class="input-contenedor-reservas" type="number" value="1" name="Adults" min="1" max="8">
-        </div>
-        <div class="input-contenedor-registro">
-          <label><i class="fa fa-male icon-registro"></i> Niños</label>
-          <input class="input-contenedor-reservas" type="number" value="1" name="niños" min="0" max="4">
-      </div>
-      <div class="input-contenedor-registro">
-        <i class="fa-solid fa-signature icon-registro"></i>
-        <label for="regreso">Nombre</label>
-        <input class="input-contenedor-reservas" type="text" required>
-      </div>
-      <div class="input-contenedor-registro">
-        <i class="fa-solid fa-id-card icon-registro"></i>
-        <label for="regreso">Cédula de Ciudadania</label>
-        <input class="input-contenedor-reservas" type="number" required>
-      </div>
-      <div class="input-contenedor-registro">
-        <i class="fa-solid fa-envelope icon-registro"></i>
-        <label for="regreso">Correo</label>
-        <input class="input-contenedor-reservas" type="email" required>
-      </div>
-      <div class="input-contenedor-registro">
-        <i class="fa-solid fa-phone icon-registro"></i>
-        <label for="regreso">Teléfono</label>
-        <input class="input-contenedor-reservas" type="number" required>
-      </div>
-      <div class="input-contenedor-registro">
-        <i class="fa-solid fa-credit-card icon-registro"></i>
-        <label for="regreso">Número de Tarjeta de Pago</label>
-        <input class="input-contenedor-reservas" type="number" required>
-      </div>
-      <div class="input-contenedor-registro">
-        <i class="fa-solid fa-credit-card icon-registro"></i>
-        <label for="regreso">CCV</label>
-        <input class="input-contenedor-reservas" type="number" required>
-      </div>
-      <div class="input-contenedor-registro">
-        <i class="fa-solid fa-dollar-sign icon-registro"></i>
-        <label for="regreso">Cuotas</label>
-        <input class="input-contenedor-reservas" type="number" required>
-      </div>
-      <div class="input-contenedor-registro">
-        <i class="fa-solid fa-cart-shopping icon-registro"></i>
-        <label for="regreso">Total a Pagar</label>
-        <input class="input-contenedor-reservas" type="number" required>
-      </div>
-      <p class="block">
-        <a class="a-reservas" routerLink="/reserva-existosa"><button class="button-registro" type="submit">Reservar y Realizar Pago</button></a>
-    </p>
-    </div>
-  </form>
+<div class="body-login">
+  <div class="login-box">
+    <img class="avatar-login" src="https://static.vecteezy.com/system/resources/previews/004/854/032/non_2x/colombia-map-on-black-background-vector.jpg">
+    <h1>¡¡Realiza tu reservación ahora!!</h1>
+    <form action="">
+      <label for="salida">Fecha de Salida (*)</label>
+      <input type="date"  required>
+      <label for="regreso">Fecha de Regreso (*)</label>
+      <input type="date"  required>
+      <label for="ciudad-salida">Ciudad de Salida (*)</label>
+      <select name="" id="">
+        <option value="bogota">Bogota</option>
+        <option value="cali">Cali</option>
+        <option value="medellin">Medellin</option>
+        <option value="cartagena">Cartagena</option>
+        <option value="san_andres">San Andres</option>
+        <option value="santa_marta">Santa Marta</option>
+        <option value="cinque_terre">Cinque Terre</option>
+        <option value="new_york">New York</option>
+        <option value="san_francisco">San Francisco</option>
+        <option value="pisa">Pisa</option>
+        <option value="paris">Paris</option>
+        <option value="noruega">Costa oeste, Noruega</option>
+        <option value="australia">Montañas, Austria</option>
+      </select>
+      <label for="ciudad-salida">Ciudad de Destino (*)</label>
+      <select name="" id="">
+        <option value="bogota">Bogota</option>
+        <option value="cali">Cali</option>
+        <option value="medellin">Medellin</option>
+        <option value="cartagena">Cartagena</option>
+        <option value="san_andres">San Andres</option>
+        <option value="santa_marta">Santa Marta</option>
+        <option value="manizales">Manizales</option>
+        <option value="bucaramanga">Bucaramanga</option>
+        <option value="barranquilla">Barranquilla</option>
+      </select>
+      <label for="adultos">Adultos (*)</label>
+      <input type="number" [defaultValue]="1" min="1" max="8" required>
+      <label for="ninos">Niños (*)</label>
+      <input type="number" [defaultValue]="0" min="0" max="8" required>
+      <label for="nombres">Nombres Completos (*)</label>
+      <input type="text" placeholder="Ingresar sus nombres" required>
+      <label for="cedula">Cédula de Ciudadania (*)</label>
+      <input type="number" min="0" required>
+      <label for="correo">Correo (*)</label>
+      <input type="email" placeholder="Ingresar Correo Electrónico" required>
+      <label for="telefono">Número de Telefono (*)</label>
+      <input type="text" placeholder="Ingresar Número de Telefono" required>
+      <label for="pago">Número de Tarjeta de Pago (*)</label>
+      <input type="number" min="0" required>
+      <label for="ccv">CCV (*)</label>
+      <input type="number" min="0" max="999" required>
+      <label for="cuotas">Número de Cuotas (*)</label>
+      <input type="number" min="0" max="6" required>
+      <label for="cedula">Total a Pagar</label>
+      <input type="number" min="0" required>
+      <br><br>
+      <a class="a-reservas" routerLink="/reserva-existosa"><input type="submit" value="Reservar y Realizar Pago"></a>
+    </form>
+  </div>
 </div>

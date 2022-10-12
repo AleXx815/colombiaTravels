@@ -1,18 +1,17 @@
 <div class="body-login">
-  <form action="" class="formulario-login">
-    <h1 class="h1-login">Login</h1>
-    <div class="contenedor-login">
-        <div class="input-contenedor-login">
-            <i class="fas fa-envelope icon-login"></i>
-            <input type="email" placeholder="Correo Electrónico">
-        </div>
-        <div class="input-contenedor-login">
-            <i class="fas fa-key icon-login"></i>
-            <input type="password" placeholder="Contraseña">
-        </div>
-        <input type="submit" value="Login" class="button-login">
-        <p class="p-login">Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad. Pulsa <a href="https://policies.google.com/terms?hl=es" class="link-login" target="_blank"> Aquí</a> para verlos</p>
-        <p class="p-login">¿No tienes cuenta?<a routerLink="/registro" class="link-login">Regístrate</a></p>
-    </div>
-  </form>
+  <div class="login-box">
+    <img class="avatar-login" src="https://static.vecteezy.com/system/resources/previews/004/854/032/non_2x/colombia-map-on-black-background-vector.jpg">
+    <h1>Inicia Sesión</h1>
+    <form action="">
+      <label for="username">Nombre de Usuario (*)</label>
+      <input type="text" placeholder="Ingresar Usuario" required>
+      <label for="contrasena">Contraseña (*)</label>
+      <input type="password" placeholder="Ingresar Contraseña" required>
+      <br><br>
+      <input type="submit" value="login">
+      <br>
+      <a href="https://support.google.com/accounts/answer/41078?hl=es-419&co=GENIE.Platform%3DAndroid" target="_blank">¿Olvidaste tú Contraseña?</a><br>
+      <a routerLink="/registro">¿Aún no tienes cuenta?</a>
+    </form>
+  </div>
 </div>
